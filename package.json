@@ -1,0 +1,41 @@
+{
+  "name": "leju-xinghou-template",
+  "version": "1.0.6",
+  "description": "创建星火平台基础模版",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewPrototype/template-cli.git"
+  },
+  "keywords": [
+    "template",
+    "typescript",
+    "react",
+    "create template",
+    "commander",
+    "download-git-repo",
+    "temp"
+  ],
+  "bin": {
+    "lj": "index.js"
+  },
+  "author": "jincieryi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewPrototype/template-cli/issues"
+  },
+  "homepage": "https://github.com/NewPrototype/template-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.0",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^6.0.0",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {}
+}
